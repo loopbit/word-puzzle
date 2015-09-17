@@ -27,7 +27,8 @@ solved it with a dynamic programming approach (well, more like brute force)
 and recursion.
 
 This solution tries to use a directed graph using the [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance)
-to find words with distance 1 and the searching with [A*](https://en.wikipedia.org/wiki/A*_search_algorithm).
+to find words with distance 1 and then searching with [A*](https://en.wikipedia.org/wiki/A*_search_algorithm) 
+to find the shortest path.
 
 ##Resources##
 The implementation of Levenshtein distance is based on [this article](http://julesjacobs.github.io/2015/06/17/disqus-levenshtein-simple-and-fast.html)
