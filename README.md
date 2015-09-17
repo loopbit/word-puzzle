@@ -33,4 +33,5 @@ to find words with distance 1 and the searching with [A*](https://en.wikipedia.o
 The implementation of Levenshtein distance is based on [this article](http://julesjacobs.github.io/2015/06/17/disqus-levenshtein-simple-and-fast.html)
 by Jules Jacobs describing a Levenshtein automata that works in O(max number of edits)
 complexity and using an implementation of the A* algorithm found in [this stackexchange question](http://codereview.stackexchange.com/questions/38376/a-search-algorithm)
-with minor modifications and a couple of bugs fixed.
+with minor modifications and a couple of bugs fixed. This code didn't have licence
+information but I've left comments and author as is.
